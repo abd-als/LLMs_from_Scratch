@@ -1,0 +1,18 @@
+Running the Code
+
+This project includes two files:
+
+A Jupyter Notebook that shows the development process and the final code.
+A Python script that you can run using Streamlit for a more interactive experience.
+API Keys
+
+To run the code, you will need API keys from LLAMACLoud and GROQ. You can obtain these keys from the following links:
+
+https://cloud.llamaindex.ai
+https://console.groq.com/keys
+Store these keys in a .env file in the project directory or initialize them in the scripts.
+
+
+
+In the py script it doesnt use the same Parser since it will take time to parse and load the docummnt and then run the streamlit code so i commented it and used PyPDFLoader. You can uncomment it or use the note book to see the diffence.
+
